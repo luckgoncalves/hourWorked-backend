@@ -13,7 +13,6 @@ class CreateHoursService {
       startHour,
       endHour,
     });
-    console.log('SERVICe', hour);
 
     await hoursRepository.save(hour);
 
