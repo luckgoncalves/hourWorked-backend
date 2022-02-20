@@ -1,5 +1,5 @@
 import { getRepository } from 'typeorm';
-import Hours from '../models/Hours';
+import Hours from '../models/Hour';
 
 interface Request {
   startHour: string;

@@ -1,7 +1,7 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('hours')
-class Hours {
+class Hour {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
@@ -12,4 +12,4 @@ class Hours {
   endHour: string;
 }
 
-export default Hours;
+export default Hour;
